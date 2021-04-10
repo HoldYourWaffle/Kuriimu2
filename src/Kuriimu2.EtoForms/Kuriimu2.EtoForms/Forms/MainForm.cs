@@ -315,7 +315,10 @@ namespace Kuriimu2.EtoForms.Forms
 
             Application.Instance.Invoke(() =>
             {
+                //TODO can this be moved to the right side?
                 tabPage.Image = new Icon(new IconFrame(1, ImageResources.Actions.Close));
+                
+                //TODO can this be changed to an 'explicit click', i.e. Down+Up on the same component?
                 tabPage.MouseUp += tabPage_Click;
             });
 

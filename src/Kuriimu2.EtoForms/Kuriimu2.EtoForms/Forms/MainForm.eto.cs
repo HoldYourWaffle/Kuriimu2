@@ -144,6 +144,7 @@ namespace Kuriimu2.EtoForms.Forms
 
             #region Content
 
+            //TODO can tabs be made draggable?
             tabControl = new TabControl();
             _progressBarEx = new ProgressBarEx();
             statusMessage = new Label();
