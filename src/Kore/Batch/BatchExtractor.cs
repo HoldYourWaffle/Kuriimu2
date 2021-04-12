@@ -3,14 +3,12 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Kontract.Extensions;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.FileSystem.EventArgs;
 using Kontract.Interfaces.Managers;
 using Kontract.Interfaces.Plugins.State;
-using Kontract.Models.IO;
 using Kore.Managers.Plugins;
 using Serilog;
+using Zio;
 
 namespace Kore.Batch
 {

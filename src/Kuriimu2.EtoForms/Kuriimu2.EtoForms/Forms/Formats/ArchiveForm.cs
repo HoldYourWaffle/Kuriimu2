@@ -6,19 +6,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using Eto.Drawing;
 using Eto.Forms;
-using Kontract.Extensions;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Plugins.State.Archive;
 using Kontract.Models.Archive;
-using Kontract.Models.IO;
 using Kore.Factories;
-using Kore.FileSystem.Implementations;
 using Kore.Managers.Plugins;
 using Kuriimu2.EtoForms.Forms.Dialogs;
 using Kuriimu2.EtoForms.Forms.Interfaces;
 using Kuriimu2.EtoForms.Forms.Models;
 using Kuriimu2.EtoForms.Resources;
 using Kuriimu2.EtoForms.Support;
+using Zio;
 
 namespace Kuriimu2.EtoForms.Forms.Formats
 {

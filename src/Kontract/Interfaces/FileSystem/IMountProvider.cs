@@ -1,4 +1,6 @@
-﻿namespace Kontract.Interfaces.FileSystem
+﻿using Zio;
+
+namespace Kontract.Interfaces.FileSystem
 {
     public interface IMountProvider
     {

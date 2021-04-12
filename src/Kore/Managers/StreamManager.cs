@@ -5,10 +5,10 @@ using System.Linq;
 using System.Timers;
 using Kontract.Interfaces.Managers;
 using Kontract.Interfaces.Providers;
-using Kontract.Models.IO;
 using Kore.Providers;
 using Kore.Streams;
 using Serilog;
+using Zio;
 
 namespace Kore.Managers
 {

@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Models
 {

@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Models.Context;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Interfaces.Plugins.State
 {

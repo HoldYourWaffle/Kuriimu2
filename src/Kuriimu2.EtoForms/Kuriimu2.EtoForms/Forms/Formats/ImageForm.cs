@@ -5,15 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Eto.Drawing;
 using Eto.Forms;
-using Kontract.Extensions;
 using Kontract.Interfaces.Plugins.State;
 using Kontract.Kanvas;
 using Kontract.Models.Image;
-using Kontract.Models.IO;
 using Kuriimu2.EtoForms.Extensions;
 using Kuriimu2.EtoForms.Forms.Interfaces;
 using Kuriimu2.EtoForms.Forms.Models;
 using Kuriimu2.EtoForms.Resources;
+using Zio;
 using ImageFormat = System.Drawing.Imaging.ImageFormat;
 
 namespace Kuriimu2.EtoForms.Forms.Formats

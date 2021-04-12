@@ -4,8 +4,8 @@ using Eto.Forms;
 using Kontract;
 using Kontract.Interfaces.Managers;
 using Kontract.Models.Archive;
-using Kontract.Models.IO;
 using Kuriimu2.EtoForms.Forms.Interfaces;
+using Zio;
 
 namespace Kuriimu2.EtoForms.Forms
 {

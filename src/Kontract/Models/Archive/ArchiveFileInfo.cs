@@ -1,11 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Kontract.Extensions;
 using Kontract.Interfaces.Progress;
 using Kontract.Interfaces.Providers;
 using Kontract.Kompression.Configuration;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Models.Archive
 {

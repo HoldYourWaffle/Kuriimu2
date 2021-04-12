@@ -1,9 +1,8 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Plugins.State;
 using Kontract.Models.Context;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kore.Models.UnsupportedPlugin
 {

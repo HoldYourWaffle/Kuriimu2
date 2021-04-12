@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 using System.Web;
 using Eto.Drawing;
 using Eto.Forms;
-using Kontract.Extensions;
 using Kontract.Interfaces.Loaders;
 using Kontract.Interfaces.Managers;
 using Kontract.Interfaces.Plugins.Identifier;
@@ -18,7 +17,6 @@ using Kontract.Interfaces.Plugins.State;
 using Kontract.Interfaces.Progress;
 using Kontract.Models;
 using Kontract.Models.Archive;
-using Kontract.Models.IO;
 using Kore.Extensions;
 using Kore.Managers.Plugins;
 using Kore.Models.Update;
@@ -36,6 +34,7 @@ using Kuriimu2.EtoForms.Resources;
 using Kuriimu2.EtoForms.Support;
 using Newtonsoft.Json;
 using Serilog;
+using Zio;
 
 namespace Kuriimu2.EtoForms.Forms
 {

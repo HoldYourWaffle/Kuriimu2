@@ -1,10 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Managers;
-using Kontract.Interfaces.Progress;
 using Kontract.Models;
-using Kontract.Models.IO;
 using Kore.Models;
+using Zio;
 
 namespace Kore.Managers.Plugins.FileManagement
 {

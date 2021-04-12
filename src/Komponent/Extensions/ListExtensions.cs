@@ -4,6 +4,7 @@ using Kontract;
 using Kontract.Extensions;
 using Kontract.Models.Archive;
 using Kontract.Models.IO;
+using Zio;
 
 namespace Komponent.Extensions
 {

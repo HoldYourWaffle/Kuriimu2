@@ -4,8 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Kontract;
-using Kontract.Extensions;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Loaders;
 using Kontract.Interfaces.Managers;
 using Kontract.Interfaces.Plugins.Identifier;
@@ -15,9 +13,7 @@ using Kontract.Interfaces.Progress;
 using Kontract.Models;
 using Kontract.Models.Archive;
 using Kontract.Models.Context;
-using Kontract.Models.IO;
 using Kore.Factories;
-using Kore.FileSystem.Implementations;
 using Kore.Managers.Plugins.FileManagement;
 using Kore.Managers.Plugins.PluginLoader;
 using Kore.Models;
@@ -25,6 +21,8 @@ using Kore.Models.LoadInfo;
 using Kore.Progress;
 using MoreLinq;
 using Serilog;
+using Zio;
+using Zio.FileSystems;
 
 namespace Kore.Managers.Plugins
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Kontract.Models.Archive;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kuriimu2.EtoForms.Forms.Interfaces
 {

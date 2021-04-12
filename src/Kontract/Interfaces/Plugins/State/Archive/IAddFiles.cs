@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using Kontract.Models.Archive;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Interfaces.Plugins.State.Archive
 {

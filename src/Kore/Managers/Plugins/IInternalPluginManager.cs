@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Threading.Tasks;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Loaders;
 using Kontract.Interfaces.Managers;
 using Kontract.Interfaces.Plugins.Identifier;
 using Kontract.Interfaces.Plugins.State.Game;
 using Kontract.Models;
 using Kontract.Models.Context;
-using Kontract.Models.IO;
 using Serilog;
+using Zio;
 
 namespace Kore.Managers.Plugins
 {

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Models;
 using Kontract.Models.Archive;
 using Kontract.Models.Context;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Interfaces.Managers
 {

@@ -5,11 +5,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Timers;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Managers;
-using Kontract.Models.IO;
 using Kore.Factories;
 using Serilog;
+using Zio;
 
 namespace Kore.Managers
 {

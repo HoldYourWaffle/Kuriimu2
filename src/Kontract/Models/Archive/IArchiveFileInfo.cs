@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Kontract.Interfaces.Progress;
 using Kontract.Interfaces.Providers;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Models.Archive
 {

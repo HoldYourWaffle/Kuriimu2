@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Plugins.Identifier;
 using Kontract.Interfaces.Plugins.State;
-using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Interfaces.Managers
 {

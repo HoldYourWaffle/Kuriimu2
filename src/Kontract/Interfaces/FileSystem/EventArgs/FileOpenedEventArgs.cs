@@ -1,5 +1,6 @@
 ﻿using Kontract.Extensions;
 using Kontract.Models.IO;
+using Zio;
 
 namespace Kontract.Interfaces.FileSystem.EventArgs
 {
