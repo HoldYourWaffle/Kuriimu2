@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Kontract.Interfaces.FileSystem;
 using Kontract.Models.Context;
 using Kontract.Models.IO;
@@ -6,8 +6,9 @@ using Kontract.Models.IO;
 namespace Kontract.Interfaces.Plugins.State
 {
     /// <summary>
-    /// A marker interface that each plugin state has to derive from.
+    /// Base interface for all plugin state interfaces.
     /// </summary>
+    /// <see cref="PluginType"/>
     public interface IPluginState
     {
         #region Optional feature support checks

@@ -3,7 +3,7 @@
 namespace Kontract.Interfaces.Managers
 {
     /// <summary>
-    /// An interface defining methods to communicate with the User Interface.
+    /// An interface defining methods to communicate with the UI.
     /// </summary>
     public interface IDialogManager
     {
