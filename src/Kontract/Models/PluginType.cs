@@ -3,6 +3,7 @@
     /// <summary>
     /// The type of file a plugin can handle.
     /// </summary>
+    /// TODO: misleading name, should be changed to something file FileType, but backwards compatibility
     public enum PluginType
     {
         /// <summary>

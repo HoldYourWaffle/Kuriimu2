@@ -11,6 +11,8 @@ namespace Kore.Managers.Plugins.PluginLoader
 {
     public abstract class CsPluginLoader
     {
+        //TODO TPlugin generic from methods should be moved to the class level, but backwards compatibility
+
         protected bool TryLoadPlugins<TPlugin>(string[] pluginPaths, out IReadOnlyList<TPlugin> loadedPlugins, out IReadOnlyList<PluginLoadError> errors) where TPlugin : IPlugin
         {
             // 1. Get all assembly file paths from the designated plugin directories

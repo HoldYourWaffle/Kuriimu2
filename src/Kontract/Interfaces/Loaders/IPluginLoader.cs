@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Kontract.Interfaces.Plugins.Identifier;
 using Kontract.Models;
 
+//TODO only file in this folder/namespace, move to Plugins folder?
 namespace Kontract.Interfaces.Loaders
 {
     /// <summary>

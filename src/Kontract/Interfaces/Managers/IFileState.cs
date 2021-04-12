@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Kontract.Interfaces.FileSystem;
 using Kontract.Interfaces.Plugins.Identifier;
@@ -52,6 +52,8 @@ namespace Kontract.Interfaces.Managers
         /// <summary>
         /// All child states that were opened from this one.
         /// </summary>
+        /// TODO appropriate in a generic context?
+        ///   If e.g. images can have children, should it be renamed?
         IList<IFileState> ArchiveChildren { get; }
 
         /// <summary>
